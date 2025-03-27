@@ -64,7 +64,7 @@ const ContactUs = () => {
                       <FaGlobe /> <span> navinagarwal0420@gmail.com</span>
                     </a>
                   </div>
-                  <form
+                  {/* <form
                     action={`${import.meta.env.VITE_APP_CONTACT_URL}`}
                     method="POST"
                     className="w-full flex gap-y-3 flex-col border border-green-700 rounded-md shadow-md background_gradient_color p-5"
@@ -124,7 +124,7 @@ const ContactUs = () => {
                     >
                       <IoSend /> Send Message
                     </button>
-                  </form>
+                  </form> */}
                 </div>
               </div>
               <div className="w-8/12 lg:w-4/12 flex justify-center items-center mt-4 md:mt-0 mb-6 lg:mb-0">

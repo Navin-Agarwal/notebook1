@@ -29,18 +29,18 @@
 // };
 
 const apiRoutes = {
-  signupURI: "https://notebook-5tb2.vercel.app/api/v1/user/signup",
-  loginURI: "https://notebook-5tb2.vercel.app/api/v1/user/login",
-  resetpasswordURI: "https://notebook-5tb2.vercel.app/api/v1/user/resetpassword", 
-  userprofileURI: "https://notebook-5tb2.vercel.app/api/v1/user/userprofile",
-  updateUserProfileURI: "https://notebook-5tb2.vercel.app/api/v1/user/updateuser",
-  deleteUserProfileURI: "https://notebook-5tb2.vercel.app/api/v1/user/deleteuser",
+  signupURI: "https://notebook1-phi.vercel.app/api/v1/user/signup",
+  loginURI: "https://notebook1-phi.vercel.app/api/v1/user/login",
+  resetpasswordURI: "https://notebook1-phi.vercel.app/api/v1/user/resetpassword", 
+  userprofileURI: "https://notebook1-phi.vercel.app/api/v1/user/userprofile",
+  updateUserProfileURI: "https://notebook1-phi.vercel.app/api/v1/user/updateuser",
+  deleteUserProfileURI: "https://notebook1-phi.vercel.app/api/v1/user/deleteuser",
 
-  createNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/postdata",
-  getNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/getdata",
-  findNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/findnotes",
-  updateNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/updatedata", 
-  deleteNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/deletedata",
+  createNotesURI: "https://notebook1-phi.vercel.app/api/v1/notes/postdata",
+  getNotesURI: "https://notebook1-phi.vercel.app/api/v1/notes/getdata",
+  findNotesURI: "https://notebook1-phi.vercel.app/api/v1/notes/findnotes",
+  updateNotesURI: "https://notebook1-phi.vercel.app/api/v1/notes/updatedata", 
+  deleteNotesURI: "https://notebook1-phi.vercel.app/api/v1/notes/deletedata",
 };
 
 export { apiRoutes };

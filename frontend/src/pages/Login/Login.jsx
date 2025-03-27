@@ -163,13 +163,13 @@ const Login = () => {
                   Remember me
                 </span>
               </label>
-              <Link
+              {/* <Link>
                 to="/user/page_not_found"
                 // to="/user/forgot_password"
                 className={`${styles.forgot_password_text}`}
               >
                 Forgot password?
-              </Link>
+              </Link> */}
             </div>
             {/* <div className={`${styles.div_wrapper}`}> */}
             <div className={`${styles.form_input_box}`}>

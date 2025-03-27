@@ -224,12 +224,13 @@ const UserNotes = () => {
                 <option value="z_a">Sort alphabetical (Z to A)</option>
               </select> */}
               {/* ===================== Choose Colors Button ================== */}
-              <button
+              {/* <button
                 onClick={handleThemeColor}
                 className={`py-1 md:py-2 px-4 md:px-5 borders border-black rounded shadow-sm shadow-gray-500 ${
                   userDetails.themeColor || "bg-green-100"
                 }`}
-              ></button>
+              ></button> */}
+              <div></div>
 
               {/* ================== Sorting Notes Button ========================= */}
               <DropdownMenu className={` `}>
